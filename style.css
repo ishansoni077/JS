@@ -1,55 +1,54 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: arial;
+  box-sizing: border-box;
+  font-family: 'Poppins';
 }
 
 body{
+  background: #69585F;
   display: flex;
   justify-content: center;
-  align-items: center;
-  background: url(pexels-paul-ijsendoorn-33041.jpg) no-repeat;
-  background-size: cover;
-  backdrop-filter: blur(4px);
-  color: #b7b7b7;
 }
 
 .container{
+  margin-top: 10rem;
+  height: 20rem;
+  width: 20rem;
+  background: #EF959D;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 20px;
   justify-content: center;
-  margin-top: 5rem;
-  height: 19em;
-  width: 19em;
-  background-color: rgb(43, 50, 48);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  border-radius: 15px;
-}
-.container button{
-  border: none;
-  background: rgb(243, 208, 103);
-  color: rgb(35, 35, 35);
-  font-size: 15px;
-  font-weight: bold;
-  padding: 10px;
-  border-radius: 20px;
-  cursor: pointer;
+  align-items: center;
+  color: #fff;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.btn {
-  display: flex;
-  gap: 20px;
+.container h2{
+  margin-bottom: 1rem;
 }
 
 .btn button{
   border: none;
-  background: rgb(243, 208, 103);
-  color: rgb(35, 35, 35);
-  font-size: 15px;
-  font-weight: bold;
-  padding: 10px;
-  border-radius: 20px;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.75rem;
+}
+
+.btn img{
+  height: 2.5rem;
+}
+.container button{
+  border: none;
+  padding: 0.5rem;
+  border-radius: 50%;
+  margin-top: 1rem;
   cursor: pointer;
+}
+.container .reset-btn{
+  border-radius: 1rem;
+  font-weight: 600;
+  font-size: .75rem;
 }
